@@ -1,0 +1,39 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Galeria */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+/* Cards */
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Imagens */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
